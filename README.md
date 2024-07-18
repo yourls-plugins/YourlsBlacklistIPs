@@ -27,10 +27,13 @@ This project was taken over to maintain it. It was very stable over 12 years wit
 
 You will see in the admin section a new admin page *BlackListIP*. In this section you can now add IP addresses you want to blacklist.
 
+![Screenshot of BlackListIP Admin UI](./yourls-BlackListIP-Admin-Interface.png)
+
 Please enter one IP address per line. 
 Other syntax should provide unexpected behaviours!
 
 # Planned features / Roadmap
+- support for latest 1.9.x YOURLS
 - support IPv6
 - support comments beside of IPs to be able to maintain in a team with info why a IP was blocked
 - some code cleanup
