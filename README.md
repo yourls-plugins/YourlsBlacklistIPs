@@ -2,17 +2,17 @@
 
 YourlsBlacklistIPs is a plugin for [YOURLS](https://yourls.org). It blacklist spammer IPs.
 You can define IPs in the format:
-- individual IP
+- individual IP like 1.2.3.4
 - IP ranges like 1.2.3.4-1.2.3.255
 - IP ranges in subnet notation like 1.2.3.4/255.255.255.0
 - IP ranges in CIDR notation like 1.2.3.4/24
 
 It has been tested on all YOURLS up to v1.7.9 (probably working with newer version too)
 
-# State of this project
+## State of this project
 This project was taken over to maintain it. It was very stable over 12 years without any modification. But time came where new changes where required.
 
-# INSTALLATION
+## INSTALLATION
 
 - go to your yourls installation folder
 - here you will find the sub-folder `user/plugins`, `cd` (dive) into it with `cd user/plugins`
@@ -23,7 +23,7 @@ This project was taken over to maintain it. It was very stable over 12 years wit
 - activate the plugin with hovering over *BlackListIP* row in the column *Action*
 - go back to admin home
 
-# Usage / Blocking IPs
+## Usage / Blocking IPs
 
 You will see in the admin section a new admin page *BlackListIP*. In this section you can now add IP addresses you want to blacklist.
 
